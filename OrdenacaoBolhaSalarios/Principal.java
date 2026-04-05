@@ -1,5 +1,4 @@
 package OrdenacaoBolhaSalarios;
-
 import java.util.Scanner;
 
 public class Principal {
@@ -15,7 +14,7 @@ public class Principal {
         System.out.println("\n------------------- Populando Salários -------------------\n");
         for(int i = 0; i < salarios.length; i++) {
             System.out.printf("\t%d° salário: ", i+1);
-            salarios[i] = sc.nextInt();
+            salarios[i] = sc.nextDouble();
         }
 
         bsort(salarios);
