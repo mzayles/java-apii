@@ -6,7 +6,7 @@ public class Principal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Informe quantos salários inteiros deseja ordenar: ");
+        System.out.print("Informe quantos salários deseja ordenar: ");
         int quantidade = sc.nextInt();
         sc.nextLine();
 
@@ -53,7 +53,7 @@ public class Principal {
         }
         System.out.println("\n");
 
-        System.out.println("------------------- Somátorio e Média -------------------\n");
+        System.out.println("------------------- Somatório e Média -------------------\n");
         for(int i = 0; i < salarios.length; i++) {
             soma += salarios[i];
         }
