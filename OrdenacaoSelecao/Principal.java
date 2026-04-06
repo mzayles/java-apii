@@ -30,7 +30,7 @@ public class Principal {
         for(int i = 0; i < caracteres.length; i++) {
             min = i;
 
-            for(int j = (i + 1); j < caracteres.length; j++) {
+            for(int j = (i + 1); j < caracteres.length - 1; j++) {
                 if(caracteres[j] < caracteres[min]) {
                     min = j;
                 }

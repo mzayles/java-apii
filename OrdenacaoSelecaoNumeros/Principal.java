@@ -27,7 +27,7 @@ public class Principal {
         int min = 0;
         int aux = 0;
 
-        for(int i = 0; i < numeros.length; i++) {
+        for(int i = 0; i < numeros.length - 1; i++) {
             min = i;
 
             for(int j = (i + 1); j < numeros.length; j++) {
