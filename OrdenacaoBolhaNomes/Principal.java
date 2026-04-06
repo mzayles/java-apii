@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Informe quantos nomes completos deseja ordenar: ");
         int quantidade = sc.nextInt();

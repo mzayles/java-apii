@@ -24,10 +24,32 @@ public class Principal {
     }
 
     public static void selectionSort(char caracteres[]) {
+        int min;
+        char aux;
 
+        for(int i = 0; i < caracteres.length; i++) {
+            min = i;
+
+            for(int j = (i + 1); j < caracteres.length; j++) {
+                if(caracteres[j] < caracteres[min]) {
+                    min = j;
+                }
+            }
+
+            if(i != min) {
+                aux = caracteres[i];
+                caracteres[i] = caracteres[min];
+                caracteres[min] = aux;
+            }
+        }
     }
 
     public static void saida(char caracteres[]) {
+        System.out.println("\n------------------- Ordenando Caracteres -------------------\n");
         
+        for(int i = 0; i < caracteres.length; i++) {
+            System.out.printf("\t[%c] ", caracteres[i]);
+        }
+        System.out.println("\n");
     }
 }
