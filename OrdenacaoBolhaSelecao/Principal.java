@@ -34,11 +34,9 @@ public class Principal {
         if(opcao == 1) {
             obj.ordenacaoBolha(numeros);
             obj.saida(numeros);
-        } else if(opcao == 2) {
+        } else {
             obj.ordenacaoSelecao(numeros);
             obj.saida(numeros);
-        } else {
-            System.out.println("Selecione um método válido de ordenação.");
         }
 
         sc.close();
