@@ -26,8 +26,8 @@ public class Principal {
     public static void bsort(double salarios[]) {
         double aux;
 
-        for(int i = 0; i < salarios.length; i++) {
-            for(int j = 0; j < salarios.length - 1; j++) {
+        for(int i = 0; i < salarios.length - 1; i++) {
+            for(int j = 0; j < salarios.length - (i + 1); j++) {
                 if(salarios[j] > salarios[j + 1]) {
                     aux = salarios[j];
                     salarios[j] = salarios[j + 1];

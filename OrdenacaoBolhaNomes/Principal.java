@@ -26,8 +26,8 @@ public class Principal {
     public static void bsort(String nomes[]) {
         String aux;
 
-        for(int i = 0; i < nomes.length; i++) {
-            for(int j = 0; j < nomes.length - 1; j++) {
+        for(int i = 0; i < nomes.length - 1; i++) {
+            for(int j = 0; j < nomes.length - (i + 1); j++) {
                 if(nomes[j].compareTo(nomes[j + 1]) > 0) {
                     aux = nomes[j];
                     nomes[j] = nomes[j + 1];

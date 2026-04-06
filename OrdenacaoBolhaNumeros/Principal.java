@@ -26,8 +26,8 @@ public class Principal {
     public static void bsort(int numeros[]) {
         int aux;
 
-        for(int i = 0; i < numeros.length; i++) {
-            for(int j = 0; j < numeros.length - 1; j++) {
+        for(int i = 0; i < numeros.length - 1; i++) {
+            for(int j = 0; j < numeros.length - (i + 1); j++) {
                 if(numeros[j] > numeros[j + 1]) {
                     aux = numeros[j];
                     numeros[j] = numeros[j + 1];

@@ -26,8 +26,8 @@ public class Principal {
     public static void bsort(char caracteres[]) {
         char aux;
 
-        for(int i = 0; i < caracteres.length; i++) {
-            for(int j = 0; j < caracteres.length - 1; j++) {
+        for(int i = 0; i < caracteres.length - 1; i++) {
+            for(int j = 0; j < caracteres.length - (i + 1); j++) {
                 if(caracteres[j] > caracteres[j + 1]) {
                     aux = caracteres[j];
                     caracteres[j] = caracteres[j + 1];
