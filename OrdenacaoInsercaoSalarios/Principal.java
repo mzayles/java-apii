@@ -1,4 +1,4 @@
-package OrdenacaoSelecaoSalarios;
+package OrdenacaoInsercaoSalarios;
 import java.util.Arrays;
 import java.util.Scanner;
 
