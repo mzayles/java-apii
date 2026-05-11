@@ -28,7 +28,7 @@ public class Principal {
         sc.close();
     }
     
-    static void ordenacaoInsercao(int vetor[]) {
+    public static void ordenacaoInsercao(int vetor[]) {
         int aux;
         
         for(int i = 0; i < vetor.length; i++) {
@@ -44,7 +44,7 @@ public class Principal {
         }
     }
     
-    static void saida(int vetor[]) {
+    public static void saida(int vetor[]) {
         System.out.println(Arrays.toString(vetor));
         System.out.println("\n");
     }
